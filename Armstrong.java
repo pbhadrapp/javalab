@@ -10,7 +10,7 @@ public class Armstrong {
 		while(n!=0)  
 		{  
 			r=n%10;  
-			sum = sum + r*r*r;
+			sum = sum + r*r*r;//added by Tarun 
 			n=n/10;
 		}  
 		if(num == sum)
